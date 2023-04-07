@@ -3,7 +3,7 @@
   --secondary-color: #ffe9e3;
   --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
-linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) .paragraphs {
+linear-gradient (135deg, #fdfcfb 0%, #e2d1c3 100%) .paragraphs {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -103,4 +103,56 @@ p {
   display: block;
   text-align: center;
   font-size: 24px;
+}
+@media (max-width: 576px) {
+  .hello-mf {
+    margin-top: 20px;
+    font-size: 32px;
+  }
+}
+@media (max-width: 576px) {
+  .no {
+    display: none;
+  }
+  p {
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 32px;
+  }
+  .space {
+    margin-bottom: 36px;
+  }
+  .margin {
+    margin-top: -36px;
+  }
+  .mb-2 {
+    margin-bottom: 42px !important;
+  }
+  .font-small {
+    font-size: 24px;
+    margin-bottom: -48px;
+  }
+  .sp {
+    margin-top: -48px;
+  }
+  .mail-space {
+    margin-bottom: 96px;
+  }
+  #contact-me {
+    margin-top: 36px;
+  }
+  .font-small1 {
+    font-size: 24px;
+    margin-top: -8px;
+  }
+}
+.container {
+  margin-bottom: 56px;
+}
+nav {
+  margin-top: 8px;
+}
+#my-mail {
+  margin-bottom: 36px;
 }
